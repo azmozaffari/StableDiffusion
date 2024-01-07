@@ -1,10 +1,3 @@
-# __author__ = 'Jiri Fajtl'
-# __email__ = 'ok1zjf@gmail.com'
-# __version__= '9.5'
-# __status__ = "Research"
-# __date__ = "30/1/2018"
-# __license__= "MIT License"
-
 import os
 import numpy as np
 import torch
