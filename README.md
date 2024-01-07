@@ -1,8 +1,8 @@
 # Ads Generator
 
-The gole of this project is to generate ads by given few number of images of a specific brand. In this project, instead of describing the ad in text to generate the sample, we use a sample image and just replace the similar item with a brand item.
+The gole of this project is to generate ads by given few number of images of a specific brand. In this project, instead of describing the ad scene in text, I use a sample image. The model uses the scene image and just replaces the similar item with a brand item.
 
-I have used DreamBooth https://github.com/google/dreambooth to train a StableDiffusion model with few number of AppleWatch photos. 
+I have used [DreamBooth] <https://github.com/google/dreambooth> to train a StableDiffusion model with few number of AppleWatch photos. 
 
 
 Some samples are provided as below for apple watch.
