@@ -6,7 +6,7 @@ Some samples are provided as below for apple watch.
 
 In the left row the sample ad image is given to the generative model that is trained with few samples of the apple watch and the model generate the similar image with replacing the presented watch in the image with the apple watch. the generated image is demonstrated in the left colomn.
 
-![image](./steps/in1.jpg = 250x250)![image](./steps/out1.jpg = 250x250)
+![image](./steps/in1.jpg=250x250)![image](./steps/out1.jpg=250x250)
 
 ![plot](./steps/in2.jpg)![plot](./steps/out2.jpg)
 
