@@ -8,3 +8,8 @@ In the left row the sample ad image is given to the generative model that is tra
 
 ![plot](./steps/in1.jpg)![plot](./steps/out1.jpg)
 
+![plot](./steps/in2.jpg)![plot](./steps/out2.jpg)
+
+![plot](./steps/in3.jpg)![plot](./steps/out3.jpg)
+
+![plot](./steps/in4.jpg)![plot](./steps/out4.jpg)
