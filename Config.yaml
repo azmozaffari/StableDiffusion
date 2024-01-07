@@ -1,0 +1,21 @@
+
+pretrained_model_name_or_path: "./models"
+revision: 
+variant: 
+tokenizer_name: 
+# instance_prompt: "A sks dog in the sea reading book wearing sunglasses under umbrella"
+tokenizer_max_length: 
+text_encoder_use_attention_mask: False,
+# ---------------------------------------------------------------------------------------
+height: 512  # default height of Stable Diffusion
+width: 512  # default width of Stable Diffusion
+num_inference_steps: 80  # Number of denoising steps
+g1: 14  # *** Scale for classifier-free guidance
+g2: 0.1 #***
+# generator = torch.manual_seed(15)  # Seed generator to create the initial latent noise
+bs: 1 # batch size of the input prompts
+step: 40  #*** #step of noise. we do not start from pure noise. we start from the last steps that already an image is added a little bit of noise
+Image_Path: "./steps/in9.jpg" # address of the image that we suppose to add noise to it
+prompt: "  A [V] watch"
+output_path: "./steps/output9.jpg"
+#-----------------------------------------------------------------------------------------
