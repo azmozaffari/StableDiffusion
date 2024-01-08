@@ -17,9 +17,9 @@ Some samples are provided below. In the left column, the sample ad scene images 
 ## How to run?
 pip install -r requirements. txt
 
-Go to the DreamBooth page download the code and train the model with the desired item images.
+Go to the DreamBooth page download the code and follow the instructions to train the model with the desired item images and given prompt.
 
-Copy the model folder to the main root folder of the project.
+Copy the trained model folder to the root folder of the project.
 
 Use the Config.yaml file to adjust the hyperparameters to reproduce the images in a way that you like.
 
