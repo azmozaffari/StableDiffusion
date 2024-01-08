@@ -27,7 +27,7 @@ Copy the trained model folder to the root folder of the project.
 
 Use the Config.yaml file to adjust the hyperparameters to reproduce the images in a way that you like.
 
-All the parameters are defined in Config.yaml file like input and output images' addresses, denoising steps, prompt, similarity scale to the scene image and prompt.
+All the parameters are defined in Config.yaml file like input and output images' addresses, denoising steps, prompt,start denoising timestamps step, similarity scales g1 and g2 which are the weights to adjust the similarity to the prompt and scene image, respectively.
 
 Run main_.py
 
