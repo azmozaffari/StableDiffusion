@@ -6,7 +6,7 @@ I have used [DreamBooth](https://github.com/google/dreambooth) to train a Stable
 
 Given the sample scene image and prompting with just the brand item name like Apple watch or DARA doll, I am capable of creating new images with the theme of the given scene image.
 
-Some samples are provided below. In the left row, the sample ad scene images are given. the generated image is demonstrated in the right column.
+Some samples are provided below. In the left colomn, the sample ad scene images are given. the generated image is demonstrated in the right column.
 
 
 <img src="./steps/in1.jpg" width="350" height="350"> <img src="./steps/out1.jpg" width="350" height="350">
