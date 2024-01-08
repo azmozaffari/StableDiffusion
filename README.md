@@ -29,4 +29,5 @@ Use the Config.yaml file to adjust the hyperparameters to reproduce the images i
 
 All the parameteres are defined in Config.yaml file like input and output images' addresses.
 
+Run main_.py
 
