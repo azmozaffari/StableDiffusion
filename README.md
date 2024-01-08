@@ -16,3 +16,17 @@ Some samples are provided as below. In the left row the sample ad scene images a
 <img src="./steps/in11.jpg" width="350" height="350"> <img src="./steps/out11.jpg" width="350" height="350">
 <img src="./steps/in12.jpg" width="350" height="350"> <img src="./steps/out12.jpg" width="350" height="350">
 <img src="./steps/in13.jpg" width="350" height="350"> <img src="./steps/out13.jpg" width="350" height="350">
+
+
+## How to run?
+pip install -r requirements. txt
+
+Go to the DreamBooth page download the code and train the model with the desiered item images.
+
+Copy the model folder in the main root of the project.
+
+Use the Config.yml file to adjust the hyperparameters to reproduce the images in a way that you like.
+
+All the parameteres are defined in config.yml file like input and output images' addresses.
+
+
