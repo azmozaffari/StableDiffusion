@@ -15,7 +15,7 @@ Some samples are provided below. In the left column, the sample ad scene images 
 <img src="./steps/in11.jpg" width="350" height="350"> <img src="./steps/out11.jpg" width="350" height="350">
 <img src="./steps/in12.jpg" width="350" height="350"> <img src="./steps/out12.jpg" width="350" height="350">
 <img src="./steps/in13.jpg" width="350" height="350"> <img src="./steps/out13.jpg" width="350" height="350">
-<img src="./steps/in14.jpg" width="350" height="350"> <img src="./steps/out_14.jpg" width="350" height="350">
+<img src="./steps/in14.jpg" width="350" height="350"> <img src="./steps/out14.jpg" width="350" height="350">
 
 
 ## How to run?
