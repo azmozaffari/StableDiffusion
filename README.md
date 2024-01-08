@@ -4,7 +4,7 @@ The goal of this project is to generate ads about specific item. In this project
 
 I have used [DreamBooth](https://github.com/google/dreambooth) approach to retrain a StableDiffusion model with few samples of the specific item that I have. Here my samples are Apple watch and DARA doll. The fine-tuned StableDiffusion model is capable of generating the items.
 
-Given the sample scene image and prompting shortly like Apple watch or DARA doll, I am capable of creating new images with the theme of the given scene image.
+Given the sample scene image and prompting shortly like Apple watch or DARA&SARA doll, I am capable of creating new images with the theme of the given scene image.
 
 Some samples are provided below. In the left column, the sample ad scene images are given. the generated images are demonstrated in the right column.
 
