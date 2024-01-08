@@ -1,6 +1,6 @@
 # Ads Generator
 
-The goal of this project is to generate ads about specific items using the general StableDiffusion model. In this project, instead of describing the scene by the text (prompt), I use a sample scene image as a description. Sometimes, it is hard for us to explain every detail of the scene that we want to generate. The model is supposed to use the sample given scene image and recreate the scene with the item that we are going to make ad about.
+The goal of this project is to generate ads about specific items using the general StableDiffusion model. In this project, instead of describing the scene by the text (prompt), I use a sample scene image as a description. The model is supposed to use the sample given scene image and recreate the scene and add the item that we are going to make ad about. This project is for whome that find prompting as a chore!
 
 I have used [DreamBooth](https://github.com/google/dreambooth) approach to retrain a StableDiffusion model with few samples of the specific item that I have. Here my samples are DARA&SARA doll. The fine-tuned StableDiffusion model is capable of generating the items.
 
