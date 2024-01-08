@@ -4,7 +4,7 @@ The gole of this project is to generate ads by given few number of images of a s
 
 I have used [DreamBooth](https://github.com/google/dreambooth) to train a StableDiffusion model with few number of samples of the specific item that I have. Here my samples were Apple watch and DARA doll. Then the stable diffusion is capable to generate the items.
 
-Given the sample scene image and prompting with just the brand item name like Aplle watch or DARA doll, I am caple to create new images with the theme of the given image.
+Given the sample scene image and prompting with just the brand item name like Apple watch or DARA doll, I am caple to create new images with the theme of the given image.
 
 Some samples are provided as below. In the left row the sample ad scene images are given. the generated image is demonstrated in the right colomn.
 
