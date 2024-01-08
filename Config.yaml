@@ -15,7 +15,7 @@ g2: 0.1 #***  The similarity scale to the given input image.
 bs: 1 # batch size of the input prompts
 step: 40  #*** #step of noise. We do not start from pure noise. we start from this step in the stable diffusion process. If we consider there are full num_inference_steps in all. Instead of starting from 0 we start from this step.
           # as much the step is bigger the created image is more similar to the given image. 
-Image_Path: "./steps/in9.jpg" # address of the image that we suppose to add noise to it
-prompt: "  A Apple watch"
-output_path: "./steps/out9.jpg"
+Image_Path: "./steps/in11.jpg" # address of the image that we suppose to add noise to it
+prompt: "  A DARA&SARA doll"
+output_path: "./steps/out11.jpg"
 #-----------------------------------------------------------------------------------------
