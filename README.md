@@ -14,9 +14,9 @@ Some samples are provided below. In the left row, the sample ad scene images are
 
 <table>
   <tr>
-    <td> <img src="./steps/in1.jpg"  alt="1" width = 360px height = 360px ></td>
+    <td> <img src="./steps/in1.jpg"  alt="1" width = 350px height = 350px ></td>
 
-    <td><img src="./steps/out1.jpg" alt="2" width = 360px height = 360px></td>
+    <td><img src="./steps/out1.jpg" alt="2" width = 350px height = 350px></td>
    </tr> 
    
       
