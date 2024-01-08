@@ -24,11 +24,11 @@ pip install -r requirements. txt
 
 Go to the DreamBooth page download the code and train the model with the desired item images.
 
-Copy the model folder in the main root of the project.
+Copy the model folder to the main root folder of the project.
 
 Use the Config.yaml file to adjust the hyperparameters to reproduce the images in a way that you like.
 
-All the parameteres are defined in Config.yaml file like input and output images' addresses.
+All the parameters are defined in Config.yaml file like input and output images' addresses.
 
 Run main_.py
 
