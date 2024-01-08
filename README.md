@@ -1,12 +1,29 @@
 # Ads Generator
 
-The gole of this project is to generate ads by given few number of images of a specific brand. In this project, instead of describing the ad scene in text (prompt), I use a sample image for simplisity. Sometimes we are not caple of defining every details of the scene that we are going to create. The model uses the sample given image and recreate the scene with the a brand item.
+The goal of this project is to generate ads by giving few images of a specific brand. In this project, instead of describing the ad scene in text (prompt), I use a sample image for simplicity. Sometimes we are not capable of defining every detail of the scene that we are going to create. The model uses the sample given image and recreates the scene with the brand item.
 
-I have used [DreamBooth](https://github.com/google/dreambooth) to train a StableDiffusion model with few number of samples of the specific item that I have. Here my samples were Apple watch and DARA doll. Then the stable diffusion is capable to generate the items.
+I have used [DreamBooth](https://github.com/google/dreambooth) to train a StableDiffusion model with few samples of the specific item that I have. Here my samples were Apple watch and DARA doll. Then the stable diffusion is capable of generating the items.
 
-Given the sample scene image and prompting with just the brand item name like Apple watch or DARA doll, I am caple to create new images with the theme of the given image.
+Given the sample scene image and prompting with just the brand item name like Apple watch or DARA doll, I am capable of creating new images with the theme of the given image.
 
-Some samples are provided as below. In the left row the sample ad scene images are given. the generated image is demonstrated in the right colomn.
+Some samples are provided below. In the left row, the sample ad scene images are given. the generated image is demonstrated in the right column.
+
+
+
+
+
+<table>
+  <tr>
+    <td> <img src="./steps/in1.jpg"  alt="1" width = 360px height = 360px ></td>
+
+    <td><img src="./steps/out1.jpg" alt="2" width = 360px height = 360px></td>
+   </tr> 
+   
+      
+</table>
+
+
+
 
 <img src="./steps/in1.jpg" width="350" height="350"> <img src="./steps/out1.jpg" width="350" height="350">
 <img src="./steps/in2.jpg" width="350" height="350"> <img src="./steps/out2.jpg" width="350" height="350">
