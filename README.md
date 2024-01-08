@@ -1,12 +1,12 @@
 # Ads Generator
 
-The goal of this project is to generate ads given few images of a specific item that we are going to generate ads about. In this project, instead of describing the ad scene in the text (prompt), I use a sample scene image as the description example. Sometimes it is hard for us to explain every detail of the scene that we are going to create. The model uses the sample given scene image and recreates the scene with the specific item.
+The goal of this project is to generate ads about specific item. In this project, I use StableDiffiusion to generate the images, but instead of describing the ad scene by the text (prompt), I use a sample scene image as a description example. Sometimes, it is hard for us to explain every detail of the scene that we want to generate. The model uses the sample given scene image and recreates the scene and add the image the item that we are going to make ad about.
 
-I have used [DreamBooth](https://github.com/google/dreambooth) to train a StableDiffusion model with few samples of the specific item that I have. Here my samples were Apple watch and DARA doll. Then the stable diffusion is capable of generating the items.
+I have used [DreamBooth](https://github.com/google/dreambooth) approach to retrain a StableDiffusion model with few samples of the specific item that I have. Here my samples are Apple watch and DARA doll. The fine-tuned StableDiffusion model is capable of generating the items.
 
-Given the sample scene image and prompting with just the brand item name like Apple watch or DARA doll, I am capable of creating new images with the theme of the given scene image.
+Given the sample scene image and prompting shortly like Apple watch or DARA doll, I am capable of creating new images with the theme of the given scene image.
 
-Some samples are provided below. In the left colomn, the sample ad scene images are given. the generated image is demonstrated in the right column.
+Some samples are provided below. In the left column, the sample ad scene images are given. the generated images are demonstrated in the right column.
 
 
 <img src="./steps/in1.jpg" width="350" height="350"> <img src="./steps/out1.jpg" width="350" height="350">
