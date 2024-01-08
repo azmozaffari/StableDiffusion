@@ -9,22 +9,6 @@ Given the sample scene image and prompting with just the brand item name like Ap
 Some samples are provided below. In the left row, the sample ad scene images are given. the generated image is demonstrated in the right column.
 
 
-
-
-
-<table>
-  <tr>
-    <td> <img src="./steps/in1.jpg"  alt="1" width = 350px height = 350px ></td>
-
-    <td><img src="./steps/out1.jpg" alt="2" width = 350px height = 350px></td>
-   </tr> 
-   
-      
-</table>
-
-
-
-
 <img src="./steps/in1.jpg" width="350" height="350"> <img src="./steps/out1.jpg" width="350" height="350">
 <img src="./steps/in2.jpg" width="350" height="350"> <img src="./steps/out2.jpg" width="350" height="350">
 <img src="./steps/in6.jpg" width="350" height="350"> <img src="./steps/out6.jpg" width="350" height="350">
