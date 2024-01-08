@@ -1,4 +1,4 @@
-# Ads Generator
+# Ad Generator
 
 The goal of this project is to generate advertisement images about specific brand items using StableDiffusion model. 
 Generative models like SD usually are general-purpose models and are not trained to reproduce specific brand items. Then the first challenge in this project is to fine-tune the model with a few samples that after fine-tuning it still can reproduce high-quality images of that brand in variant shapes. The next challenge is prompting. Sometimes to reach an acceptable result, we really should know how to ask the model by a good prompting.
