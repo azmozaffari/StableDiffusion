@@ -28,7 +28,7 @@ Copy the model folder to the main root folder of the project.
 
 Use the Config.yaml file to adjust the hyperparameters to reproduce the images in a way that you like.
 
-All the parameters are defined in Config.yaml file like input and output images' addresses.
+All the parameters are defined in Config.yaml file like input and output images' addresses, denoising steps, prompt, similarity scale to the scene image and prompt.
 
 Run main_.py
 
