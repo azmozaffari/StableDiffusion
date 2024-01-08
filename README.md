@@ -21,7 +21,7 @@ Some samples are provided as below. In the left row the sample ad scene images a
 ## How to run?
 pip install -r requirements. txt
 
-Go to the DreamBooth page download the code and train the model with the desiered item images.
+Go to the DreamBooth page download the code and train the model with the desired item images.
 
 Copy the model folder in the main root of the project.
 
