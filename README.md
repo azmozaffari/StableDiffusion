@@ -25,8 +25,8 @@ Go to the DreamBooth page download the code and train the model with the desiere
 
 Copy the model folder in the main root of the project.
 
-Use the Config.yml file to adjust the hyperparameters to reproduce the images in a way that you like.
+Use the Config.yaml file to adjust the hyperparameters to reproduce the images in a way that you like.
 
-All the parameteres are defined in config.yml file like input and output images' addresses.
+All the parameteres are defined in Config.yaml file like input and output images' addresses.
 
 
