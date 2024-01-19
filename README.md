@@ -10,9 +10,7 @@ To address the fine-tuning challenge, I have used [DreamBooth](https://github.co
 
 To address the prompting challenge, instead of describing the scene by the text (prompt), I want to use a sample scene image as a description. Here, ControlNet cannot be a good choice as we need to re-train the model for new given style images.
 
-I have added a guidance gradient term to the denoising process of SD. Like the classifier-free guidance approach, that the captioned image is used as a guide for the denoising process, I have used a noised input image as a guide for the only 5 beginning denoising steps. The weights of these two guidance terms are considered as the hyperparameters. 
-
-This project is for those who find prompting a chore!
+I have added a guidance gradient term to the denoising process of SD. Like the classifier-free guidance approach, that the captioned image is used as a guide for the denoising process, I have used a noised input image as a guide for the only 5 beginning denoising steps with the declining weight. The weights of these two guidance terms are considered as the hyperparameters. 
 
 Given the sample scene image and prompting shortly like DARA&SARA doll, I am capable of creating new images with the theme of the given scene image.
 
