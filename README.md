@@ -8,7 +8,7 @@ To address the fine-tuning challenge, I have used [DreamBooth](https://github.co
 <img src="./steps/darasara.jpg" width="350" height="350">
 
 
-To address the prompting challenge, instead of describing the scene by the text (prompt), I use a sample scene image as a description. The model is supposed to use the sample given scene image and recreate the scene while adding the brand item into. I did not use ControlNet here which needs the re-training process for the given style.
+To address the prompting challenge, instead of describing the scene by the text (prompt), I want to use a sample scene image as a description. Here, ControlNet cannot be a good choise as we need to re-train the model for the new given style images.
 
 I have added a guidance gradient to the denoising process of SD. Like the classifier-free approach, that the captioned image is used as a guide for the denoising process, I have used a noised input image as the guide  for the only 5 beginning denoising steps. The weight of these two guidence term is considered as the hyperparameters. 
 
