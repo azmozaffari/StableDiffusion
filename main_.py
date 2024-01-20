@@ -115,7 +115,7 @@ def input_image_to_memo_score(prompt):
     noisy_model_input = noise_scheduler.add_noise(model_input, noise, noise_scheduler.timesteps)
     # -------------------------------------------------------------------------------------------------------
 
-    # The image is added noise in different timesteps. We can choose the added level of the noise by cgoosing step parameter
+    # The image is added noise in different timesteps. We can choose the added level of the noise by choosing step parameter
     
     # input of the  diffusion model
     latents = torch.randn(
@@ -133,7 +133,7 @@ def input_image_to_memo_score(prompt):
         with torch.no_grad():
             noise_pred1 = unet(latent_model_input, t, encoder_hidden_states=emb).sample
             # noise guidence regarding the original image
-            noise_pred2 = noisy_model_input[count] - model_input #unet(latent_model_input, t, encoder_hidden_states=emb2).sample
+            noise_pred2 = noisy_model_input[step + count] - model_input #unet(latent_model_input, t, encoder_hidden_states=emb2).sample
 
         # perform guidance by the prompt
         noise_pred_uncond, noise_pred_text1 = noise_pred1.chunk(2)
@@ -142,7 +142,7 @@ def input_image_to_memo_score(prompt):
         print(torch.min(noise_pred_text2), torch.max(noise_pred_text2),torch.min(noise_pred_text1), torch.max(noise_pred_text1) )
         
         if count<5:
-            noise_pred = noise_pred_uncond + g1 * (noise_pred_text1 - noise_pred_uncond)+ (g2**count) * (noise_pred_text2 - noise_pred_uncond)
+            noise_pred = noise_pred_uncond + g1 * (noise_pred_text1 - noise_pred_uncond)+ g2 * (noise_pred_text2 - noise_pred_uncond)
         else:
             noise_pred = noise_pred_uncond + g1 * (noise_pred_text1 - noise_pred_uncond)
 
